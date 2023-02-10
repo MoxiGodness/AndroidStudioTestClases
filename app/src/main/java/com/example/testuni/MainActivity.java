@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         String nombre = ((TextView)findViewById(R.id.txtNombre)).getText().toString();
-        Toast.makeText(getApplicationContext(), "Hola "+nombre+", xddxd" , Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), getString(R.string.texto_resultado).replace("{nombre}", nombre) , Toast.LENGTH_SHORT).show();
 
 
 
