@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">testUni</string>
+    <string name="texto_bienvenida">Hola, Ingresa tu nombre: </string>
+    <string name="texto_aceptar">Aceptar</string>
+</resources>
